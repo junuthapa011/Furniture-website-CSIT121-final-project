@@ -1,0 +1,126 @@
+* {	box-sizing: border-box;}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+body { background-color: #FCEBB6; 
+		color: #221811; 
+		font-family:Arial, Verdana, sans-serif;
+		background-image: url(background.gif);}
+
+header {	background-color: #fdfdfd; 
+			height: 100px;
+			width: 100px; 
+			background-size: 100% 100%;
+			background-image: url(logo.png); 
+			background-repeat: no-repeat;}	
+	
+h1 { padding-top: 30px; 
+		padding-left: 200px; 
+		font-size: 2em;}
+	
+nav {	text-align:center; 
+		font-weight:bold;
+		font-size: 1.5em; 
+		padding-top: 10px;
+		float: left; 
+		width: 200px;}
+
+nav a {	text-decoration: none;}
+
+nav a:link {color: #FEF6C2;}
+nav a:visited {color: #D2B48C;}
+nav a:hover {color: #CC9933;}
+	
+nav ul {	list-style-type: none; 
+			padding-left:0px;}	
+
+main {padding-left: 0px; 
+		padding-right: 0px; 
+		padding-bottom: 2em; 
+		padding-top: 10px;
+		display: block;
+		margin-left: 0px;
+		background-color: #fdfdfd;}	
+		
+h4 { background-color: #D2B48C; 
+		font-size: 1.2em; 
+		padding-left: .5em; 
+		padding-bottom: 0em;
+		text-transform: uppercase;
+		border-bottom: 2px solid #221811;
+		clear: left;}
+		
+
+header, nav, main, footer { display: block;}
+
+footer {	background-color:#D2B48C; 
+			font-size:.60em; 
+			text-align:center;
+			font-style:italic;
+			padding-bottom: 10px; 
+			border-top: 2px solid #221811;}
+	
+#wrapper {	width: 80%; 
+			margin-left: auto; 
+			margin-right: auto;
+			background-color:#fdfdfd;
+			min-width:900px ; 
+			max-width: 1280px;
+			box-shadow: 3px 3px 3px #333;}
+
+.details {	padding-left: 20%; 
+			padding-right: 20%; 
+			overflow: auto;}	
+
+.float{ 	float: auto; 
+			margin-right:1em; 
+			padding-bottom: 1em;
+			padding-top: 1em;}		
+	
+img {	padding-left: 10px; 
+		padding-right: 10px;}		
+		
+form {padding: 2em;}
+
+label { float: left; 
+		display: block;
+		text-align: right;
+		width: 8em;
+		padding-right:1em;}
+
+input, textarea { display: block;
+				  margin-bottom: 1em;}
+				  
+#mySubmit { margin-left: 9.5em;}
+
+#herojobs { height: 250px;
+			background-image: url(herojobs.jpg); 
+			background-size: 100% 100%;}
+
+
+
+<main>	
+	<h2>Welcome to FURNITURE HOME </h2>
+	<p>There's so much to know about FURNITURE HOME beyond our low-price furniture. 
+	From our sustainable sourcing of cotton and wood, to our stance on human rights;  
+	what it's like to work for FURNITURE HOME, to our democratic design approach. </p>	
+	<ul>
+	<li>Contract us </li>
+	<p> Hours of Operation: Sunday-Monday: 9:00am – 10:00pm (EST) <br>
+	Kitchen and Business Sales: Sunday-Saturday: 9:00am – 9:00pm (EST)</p>
+	<li>Email us </li>
+	<p> E-mail us anytime on a number of subjects 
+		and we’ll get back to you within 48-72 hours. </p>
+	<li> Visit us in store </li>
+	<p> If you would like to visit your closest store, 
+	use our local store finder to find your closest location!
+	<br> 8352 Honeygo Blvd, Baltimore, MD 21236
+	<br> 10100 Baltimore Ave, College Park, MD 20740
+	<br> 1801 NW 117th Ave, Miami, FL 33172 <p>
+	<p><a href ="#top">Go to the top</a></p>
+</main>
+
+	
+	
+	

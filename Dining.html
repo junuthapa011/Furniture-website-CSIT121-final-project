@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Furniture Home </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="design.css">	
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>	
+	
+	<body>
+		<div class="top-nav-bar">
+		<div class="search-box">
+			<i class="fa fa-bars" id="menu-icon" onclick="openmenu()"> </i>
+			<i class="fa fa-times" id="close-icon" onclick="closemenu()"></i>
+	
+			<img src="logo.png" class="logo">
+			<input type="text" class="form-control">
+			<span class="input-group-text"><i class="fa fa-search"></i></span>
+		</div>
+		<div class="menu-bar">
+		<ul>
+		<li><a href="#"><i class="fa fa-cart-plus"></i>Cart</a> </li>
+		<li><a href="#">Sign Up</a> </li>
+		<li><a href="#">Login</a> </li>
+		</ul>
+		</div>
+		</div>
+		
+		<main>
+			<div class = "thumbnail">
+			<h2> Shop Dining </h2>
+				<a href = "BarStoolsAndTables.html"><img src = "Dining room/Bar Stools and Tables/stoolTable1.jpg" height = "200" width = "225"> Bar stools and Tables</a><br><br>
+				<a href = "DiningChairs.html"><img src = "Dining room/Dining Chairs/diningChairs1.jpg" height = "200" width = "225"> Dining Chairs</a><br><br>
+				<a href = "DiningSets.html"><img src = "Dining room/Dining Sets/diningSets1.jpg" height = "200" width = "225"> Dining Sets</a><br><br>
+				<a href = "DiningTable.html"><img src = "Dining room/Dining Table/diningTable1.jpg" height = "200" width = "225"> Dining Table</a><br><br>
+			</div>
+		</main>
+		
+<!-----------Footer----------->
+<section class="footer">
+ <div class="container text-center">
+  <div class="row">
+ 	<div class="column">
+ 	<h1>Help</h1>
+ 	<p>Contract Us</p>
+ 	<p>Customer Service</p>
+ 	<p>Return Policy</p>
+ 	</div>
+ 	
+ 	<div class="column">
+ 	<h1>About Us</h1>
+ 	<p>This is HOME FUNITURE</p>
+ 	<p>Terms and Conditions</p>
+ 	<p>Privacy Policy</p>
+ 	</div>
+ 	
+ 	<div class="column">
+ 	<h1>Follow Us On</h1>
+ 	<p><i class="fa fa-youtube-play"></i>Youtube</p>
+ 	<p><i class="fa fa-facebook-official"></i>Facebook</p>
+ 	<p><i class="fa fa-twitter"></i>Twitter</p>
+ 	</div>
+  </div>
+<hr>
+<p class="copyright"> &copy;2019 FURNITURE HOME</p>
+<br><a href="mailto:junuthapa011@gmail.com"> junuthapa011@gmail.com </a>
+
+ </div>
+</section>
+		
+<script>
+	function openmenu()
+		{ document.getElementById("side-menu").style.display="block";
+		document.getElementById("menu-icon").style.display="none";
+		document.getElementById("close-icon").style.display="block";
+		 }
+		 
+	function closemenu()
+		{ document.getElementById("side-menu").style.display="none";
+		document.getElementById("menu-icon").style.display="block";
+		document.getElementById("close-icon").style.display="none";
+		 }
+</script>	
+</body>
+</html>
